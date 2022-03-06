@@ -1,0 +1,34 @@
+html,
+body,
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.height, html,
+body,
+main, .boy, .boy svg {
+  height: 100%;
+}
+
+main {
+  cursor: url(chocolate.png), auto;
+}
+
+.boy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boy svg {
+  width: 400px;
+}
+/*# sourceMappingURL=index.css.map */

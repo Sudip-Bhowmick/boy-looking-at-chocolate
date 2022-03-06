@@ -1,0 +1,31 @@
+html,
+body,
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.height {
+  height: 100%;
+}
+
+main {
+  cursor: url(chocolate.png), auto;
+}
+
+html,
+body,
+main {
+  @extend .height;
+}
+
+.boy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @extend .height;
+  svg {
+    width: 400px;
+    @extend .height;
+  }
+}
